@@ -1,0 +1,6 @@
+Some models in this directory are vendor-provided and are not covered by 
+the top-level license.
+
+These are:
+
+- SFP connector UE75-A20-6000T.step

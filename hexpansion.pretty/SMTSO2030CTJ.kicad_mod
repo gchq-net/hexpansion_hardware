@@ -1,0 +1,149 @@
+(footprint "SMTSO2030CTJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "H1"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2ef4e8bb-3d7b-4f2b-a8ca-466dbea6255a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba83a02f-b7cc-41fb-8fe8-9d0707b16c2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbfd39c6-ab59-4cb8-872a-1daa82b0456c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "343748fe-6dd9-4d54-adb8-b6b2b3cf0ab9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8778cde1-efca-4ec8-b8b0-a04d97ffc308")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b6ebf84-b374-46b0-a7da-52250d34116c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd oval
+		(at -2.100112 -1.2125 150)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d6495041-7565-4284-bad8-6d0061dad04f")
+	)
+	(pad "" smd oval
+		(at -2.100112 1.2125 210)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "dd4c24f3-f163-49e2-9b34-95f338528975")
+	)
+	(pad "" smd oval
+		(at 0 -2.425 90)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "eaeab060-73bd-4182-97ba-16992fddf9ba")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 3.75 3.75)
+		(layers "B.Mask")
+		(uuid "e76e4759-3bc2-44df-8be8-3275fbdb82fe")
+	)
+	(pad "" smd oval
+		(at 0 2.425 270)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "502cd2d1-5ebd-4774-bdcb-4e9ab92a73fa")
+	)
+	(pad "" smd oval
+		(at 2.100112 -1.2125 30)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fc571f56-cb3e-4570-bead-2e80743f7d77")
+	)
+	(pad "" smd oval
+		(at 2.100112 1.2125 330)
+		(size 1.235 2.2)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "59c0cfc7-6e5d-4d0e-be8c-71155523291e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 3.73)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "21be90eb-0c4f-4709-a119-388aa8307863")
+	)
+	(model "${KIPRJMOD}/../3d/SMTSO2030.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
