@@ -476,11 +476,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../nodular-base/3d/nodule.step",
-      "svg": "",
+      "svg": "../",
       "vrml": ""
     },
     "page_layout_descr_file": ""
